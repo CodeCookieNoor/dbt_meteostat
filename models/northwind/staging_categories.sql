@@ -1,5 +1,5 @@
 WITH source_data AS (
-    SELECT * FROM {{ source('northwind', 'customers') }}
+    SELECT * FROM {{ source('northwind', 'categories') }}
 )
 
 SELECT
